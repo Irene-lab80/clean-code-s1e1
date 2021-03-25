@@ -17,7 +17,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -37,14 +37,19 @@ body {
 .task-row-wrapper {
   display: flex;
 }
+
 ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+
+input,
+button{
   outline: none;
 }
 button {
@@ -59,6 +64,7 @@ button {
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 h3,
 label[for="new-task"] {
@@ -120,18 +126,18 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 li > .delete:hover {
   color: #cf2323;
 }
-button.delete img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete img:hover {
   transform: rotateZ(0);
 }
 
